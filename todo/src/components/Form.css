@@ -1,0 +1,48 @@
+.task-details{
+    display: flex;
+    justify-content: center;
+}
+.Tittle{
+    color: #636e72;
+}
+.Desc{
+    color: #636e72;
+}
+.task-list{
+    color: #636e72;
+}
+.Task-List-Container{
+    background-color: #dff9fb;
+    display: flex;
+    height: 1.8rem;
+    align-items: center;
+    border-radius: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.input-text-container{
+    border: none;
+    outline: none;
+    width: 75.5rem;
+    height: 1.6rem;
+    background-color: #dff9fb;
+}
+.add-btn{
+    margin: .5rem;
+    color: gray;
+}
+.input-text-container{
+    margin: 1rem; 
+}
+@media  (max-width: 768px) {
+    .input-and-btn{
+             background-color: #dff9fb;
+             width: 100%;
+             display: flex;
+             align-items: center;
+            height: 2rem;
+            border-radius: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+}

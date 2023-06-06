@@ -1,0 +1,30 @@
+.todo-list{
+    background-color:#f1f2f6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: .5rem;
+   
+}
+.todo-box{
+    background-color:#f1f2f6;
+    display: flex;
+    align-items: center;
+    height: 1.8rem;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+.content{
+    width: 90%;
+}
+.remove-box{
+     color: #eb2f06; 
+} 
+
+@media (max-width: 768px){
+    .todo-list{
+        margin-top: 1rem; 
+    }
+    .remove-box{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
